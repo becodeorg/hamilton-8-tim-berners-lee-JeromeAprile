@@ -6,83 +6,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://kit.fontawesome.com/6bb6947bea.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 </head>
 
 
 <body>
 
-    <header>
-
-        <img src="https://github.com/becodeorg/hamilton-8-tim-berners-lee-JeromeAprile/blob/master/img/tim_berners_lee.jpg?raw=true" alt="Picture of Tim Berners-Lee">
-        <h1>Tim Berners-Lee</h1>
-        
-    </header>
-
     <main>
 
-        <Section>
-        
-            <h2>Inventor of HTML</h2>
-        
-            <p>Tim Berners-Lee is the <strong>inventor</strong> of the Web. In 1989, Tim was working in a computing services section of CERN when he came up with the concept; at the time he had no idea that it would be implemented on such an <strong>enormous scale</strong>.</p>
-   
-            <a href="https://fr.wikipedia.org/wiki/Tim_Berners-Lee">See for yourself</a>
+        <div class="intro">
 
-        </Section>
+            <Section>
 
-        <section>
-
-            <ul>
-
-                <a href="https://www.facebook.com/">
-                <li><i class="fa-brands fa-facebook-f fa-lg" style="color: #cccccc;"></i>
-                <p>Facebook</p></li>
-                </a>
-
-                <a href="https://www.linkedin.com/feed/">
-                <li><i class="fa-brands fa-linkedin-in fa-lg" style="color: #cccccc;"></i>
-                <p>Linkedin</p></li>
-                </a>
-
-                <a href="https://twitter.com/?lang=fr">
-                <li><i class="fa-brands fa-twitter fa-lg" style="color: #cccccc;"></i>
-                <p>Twitter</p></li>
-                </a>
-
-            </ul>
-
-        </section>
-
-        <section>
-
-            <h2>His Favorite movies</h2>
-
-            <table>
+                <img src="https://github.com/becodeorg/hamilton-8-tim-berners-lee-JeromeAprile/blob/master/img/tim_berners_lee.jpg?raw=true" id="TBLP" alt="Picture of Tim Berners-Lee">
             
-                <tr>
-                    <td><img src="https://github.com/becodeorg/hamilton-8-tim-berners-lee-JeromeAprile/blob/master/img/space_odyssey.jpg?raw=true" alt="'2001 - Space Odyssey' movie poster"></td>
+                <h1>Tim Berners-Lee</h1>
+                <h2>Inventor of HTML</h2>
+
+                    <p>Tim Berners-Lee is the <strong>inventor</strong> of the Web. In 1989, Tim was working in a computing services section of CERN when he came up with the concept; at the time he had no idea that it would be implemented on such an <strong>enormous scale</strong>.</p>
+
+                <button><a href="https://fr.wikipedia.org/wiki/Tim_Berners-Lee" target="_blank" class="wiki">See for yourself</a></button>
+
+            </Section>
+
+        </div>
+
+
+
+
+        <div class="socialmedias">
+
+            <section>
+
+                <div class="social-cont">
+
+                    <table id="socialtable">
+
+                        <tr> 
+                            <th><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f fa-lg" style="color: #747474; font-size: 40px;"></i></a></th>
+                            <th><a href="https://www.linkedin.com/feed/" target="_blank"><i class="fa-brands fa-linkedin-in fa-lg" style="color: #747474; font-size: 40px;"></i></a></th>
+                            <th><a href="https://twitter.com/?lang=fr" target="_blank"><i class="fa-brands fa-twitter fa-lg" style="color: #747474; font-size: 40px;"></i></a></th>
+                        </tr>
+                        
+                        <tr>
+                            <td><a href="https://www.facebook.com/" target="_blank"><p>Facebook</p></a></td>
+                            <td><a href="https://www.linkedin.com/feed/" target="_blank"><p>Linkedin</p></a></td>
+                            <td><a href="https://twitter.com/?lang=fr" target="_blank"><p>Twitter</p></a></td>
+                        
+                        </tr>
+                       
+                        </table>
+
+                    </div> 
+           
+            </section>
+
+        </div>    
+
+
+        <div class="favoritemovies">
+
+            <section>
+
+                <h2>His Favorite movies</h2>
+
+                <table id="movietable">
                 
-                    <td><h3>2001 - Space Odyssey</h3>
-                    <p>Humanity finds a mysterious, obviously artificial, object buried beneath the Lunar surface and, with the intelligent computer H.A.L. 9000, sets off on a quest.</p></td>
-                </tr>
-            
-                <tr>
-                    <td><img src="https://github.com/becodeorg/hamilton-8-tim-berners-lee-JeromeAprile/blob/master/img/mister_hulot.jpg?raw=true" alt="'Monsieur Hulot' movie poster"></td>
+                    <tr>
+                        <th><img id="poster" src="https://github.com/becodeorg/hamilton-8-tim-berners-lee-JeromeAprile/blob/master/img/space_odyssey.jpg?raw=true" alt="'2001 - Space Odyssey' movie poster"></th>
                     
-                    <td><h3>Monsieur Hulot</h3>
-                    <p>Monsieur Hulot comes to a beachside hotel for a vacation, where he accidentally (but good-naturedly) causes havoc.</p></td>
-                </tr>
+                        <td><h3>2001 - Space Odyssey</h3>
+                        <p>Humanity finds a mysterious, obviously artificial, object buried beneath the Lunar surface and, with the intelligent computer H.A.L. 9000, sets off on a quest.</p></td>
+                    </tr>
+                
+                    <tr>
+                        <th><img id="poster" src="https://github.com/becodeorg/hamilton-8-tim-berners-lee-JeromeAprile/blob/master/img/mister_hulot.jpg?raw=true" alt="'Monsieur Hulot' movie poster"></th>
+                        
+                        <td><h3>Monsieur Hulot</h3>
+                        <p>Monsieur Hulot comes to a beachside hotel for a vacation, where he accidentally (but good-naturedly) causes havoc.</p></td>
+                    </tr>
 
-                <tr>
-                    <td><img src="https://github.com/becodeorg/hamilton-8-tim-berners-lee-JeromeAprile/blob/master/img/alien.jpg?raw=true" alt="'Alien' movie poster"></td>
-                    
-                    <td><h3>Alien</h3>
-                    <p>The commercial vessel Nostromo receives a distress call from an unexplored planet. After searching for survivors, the crew heads home only to realize that a deadly bioform has joined them.</p></td>
-                </tr>
+                    <tr>
+                        <th><img id="poster" src="https://github.com/becodeorg/hamilton-8-tim-berners-lee-JeromeAprile/blob/master/img/alien.jpg?raw=true" alt="'Alien' movie poster"></th>
+                        
+                        <td><h3>Alien</h3>
+                        <p>The commercial vessel Nostromo receives a distress call from an unexplored planet. After searching for survivors, the crew heads home only to realize that a deadly bioform has joined them.</p></td>
+                    </tr>
 
-            </table>
+                </table>
 
-        </section>
+            </section>
+
+        </div>
 
     </main>
 
