@@ -1,20 +1,15 @@
 
 /* general */
 
-p {
-    color: #7D7D7D;
-    font-family: 'Open Sans';
-}
-
 body {
-    background-color:#dddddd;
+    background-color:#EBEBEB;
 }
 
 /* Photo de Tim*/
 #TBLP {
     display: block;
     border-radius: 50%;
-    border: 4px solid #888888;
+    border: 4px solid #EBEBEB;
     width: 35%;
     margin-left: auto;
     margin-right: auto;
@@ -29,13 +24,17 @@ body {
     margin-right: auto;
     background-color: #ffffff;
     border-radius: 3px;
-    border: solid #888888 1px;
-    padding: 20px 15px 20px 15px;
+    border: solid #b5b5b5 1px;
+    padding: 30px 15px 30px 15px;
     margin-bottom: 20px;
 }
 
 .intro p {
     text-align: justify;
+    color: #7D7D7D;
+    font-family: 'Open Sans';
+    line-height: 1.5;
+
 }
 
 h1 {
@@ -80,7 +79,7 @@ button {
     margin-right: auto;
     background-color: #ffffff;
     border-radius: 3px;
-    border: solid #888888 1px;
+    border: solid #b5b5b5 1px;
     padding: 20px 15px 20px 15px;
     margin-bottom: 20px;
     
@@ -96,13 +95,16 @@ button {
 
 }
 
-
 #socialtable {
     max-width: 35%;
     text-align: center;
     margin: auto;
     border-collapse: separate;
     border-spacing: 50px 5px;
+}
+
+#socialtable td {
+    color: #EBEBEB;
 }
 
 
@@ -116,7 +118,7 @@ button {
     margin-right: auto;
     background-color: #ffffff;
     border-radius: 3px;
-    border: solid #888888 1px;
+    border: solid #b5b5b5 1px;
     padding: 20px 15px 20px 15px;
     margin-bottom: 20px;
 }
@@ -129,6 +131,9 @@ button {
 
 #movietable p {
     text-align:justify;
+    line-height: 1.5;
+    color: #7D7D7D;
+    font-family: 'Open Sans';
 }
 
 #movietable h3 {
@@ -141,6 +146,7 @@ button {
     border-left: solid 25px transparent;
     border-right: solid 10px transparent;
 }
+
 
 
 
